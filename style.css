@@ -1,0 +1,62 @@
+*{
+    color: white;
+    background: #333;
+    list-style-type: none;
+}
+.wrapper{
+    width: 500px;
+    margin: 60px auto;
+}
+
+.wrapper li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    box-shadow: 0 0 10px  #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width:70%;
+    animation: html 3s infinite alternate;
+}
+.css{
+    width: 50%;
+    animation:css 3s infinite alternate;
+}
+.js{
+    width: 40%;
+    animation: js 3s alternate infinite;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%
+    }
+}
